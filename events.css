@@ -1,0 +1,43 @@
+body{
+    border: solid;
+    padding: 40px;
+    margin: 10%;
+    width:auto;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.details{
+    border: solid;
+    padding: 50px;
+    display:flex;
+    
+}
+#im1{
+    border: solid;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    flex: 2;
+    position:absolute;
+}
+div{
+    flex:4;
+    flex-direction: column;
+    text-align:right;
+    position: relative;
+    padding: 10px;
+    font-size: large;
+}
+input{
+    margin-bottom: 10px;
+}
+@media  screen and(min-width:100px) {
+    #formelement{
+display: inline
+    }
+    
+}
